@@ -1,0 +1,27 @@
+h2{
+family: 'Comic Sans', 'Courier New', Courier, monospace;
+}
+.darkcolor{
+    background-color: rgb(2, 2, 56) !important;
+}
+.riz{
+    font-family: 'Comic Sans MS', Chiller;
+    font-weight: bold;
+    text-decoration: overline;
+    font-style: italic;
+}
+.darktext{
+    color: rgb(129, 129, 201) !important;
+}
+a{
+    color: rgb(7, 106, 73)
+}
+.image-container {
+    text-align: center; /* Aligns the images to the center */
+}
+.image-container img {
+    margin: 5px; /* Adds a margin around each image */
+    width: 18%; /* Sets the width of each image to be 18% of the container width */
+    height: auto; /* Maintains the aspect ratio of the images */
+    display: inline-block; /* Places images in a line */
+}

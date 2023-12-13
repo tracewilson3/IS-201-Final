@@ -1,0 +1,76 @@
+body {
+    background-image: url('https://media.istockphoto.com/id/1172427455/photo/beautiful-sunset-over-the-tropical-sea.jpg?s=612x612&w=0&k=20&c=i3R3cbE94hdu6PRWT7cQBStY_wknVzl2pFCjQppzTBg=');
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    color: aliceblue;
+}
+
+img {
+    display: block;
+    border: solid white 3px;
+    padding: 4px;
+    margin: auto;
+    /*centers image (with block display)*/
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 300px;
+
+}
+.centerme {
+    display: block;
+    margin: auto;
+}
+
+ol {
+    background-color: rgba(0, 0, 0, 0.24);
+}
+
+.title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: overline;
+    font-style: italic;
+}
+
+.common {
+    position: absolute;
+}
+
+.mainbody {
+    top: 50%;
+    color: rgb(242, 247, 235);
+    width: 100%;
+}
+
+.footer {
+    z-index: 1;
+    position: fixed;
+    bottom: 0px;
+    display: block;
+    text-align: center;
+    background-color: rgba(0, 0, 255, 0.329);
+    width: 100%;
+}
+
+.header {
+    top: 0%; 
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    z-index: -1;
+}
+h2{
+    float: right;
+    color: white;
+}
+a{
+    color: aquamarine;
+    z-index: 10;
+}
+h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a:visited {
+    color: #2be243;
+}
